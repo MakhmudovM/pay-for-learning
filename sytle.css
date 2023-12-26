@@ -1,0 +1,114 @@
+/*.parent {
+  background-color: bisque;
+
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.child {
+  border: 5px solid black;
+  padding: 10px;
+  font-size: 26px;
+  font-weight: bold;
+  font-family: sans-serif;
+  text-transform: uppercase;
+}
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+ul,
+ol {
+  text-decoration: none;
+}
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 14px;
+  font-weight: 400px;
+  line-height: 20px;
+  background-color: #e6eff5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.container {
+  width: 635px;
+  border-radius: 8px;
+}
+.top {
+  padding: 40px;
+  background-color: #fff;
+}
+.top-title {
+  color: rgba(42, 179, 177, 1);
+  letter-spacing: -0.3px;
+  margin-bottom: 24px;
+}
+.top-subtitle {
+  color: #c0df33;
+  letter-spacing: -0.225px;
+  margin-bottom: 11px;
+}
+.top-description {
+  color: #9aa7be;
+  line-height: 26px;
+  letter-spacing: -0.2px;
+}
+.bottom-wrapper {
+  display: flex;
+}
+.bottom-item-left {
+  padding: 40px;
+  width: 50%;
+  background-color: #2ab3b1;
+  color: #fff;
+}
+.bottom-item-left-title {
+  letter-spacing: -0.225px;
+  margin-bottom: 18px;
+}
+.bottom-item-left-price {
+  display: flex;
+  gap: 11px;
+}
+.bottom-item-left-price-number {
+  font-size: 24px;
+  letter-spacing: -0.4px;
+}
+.bottom-item-left-price-text {
+  opacity: 0.5;
+}
+.bottom-item-left-description {
+  margin-bottom: 26px;
+}
+.bottom-item-left-button {
+  border-radius: 5px;
+  background: #c0df33;
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  padding: 15px 0;
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: -0.2px;
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+}
+.bottom-item-right {
+  padding: 40px;
+  width: 50%;
+  color: #fff;
+  background-color: rgba(42, 179, 177, 0.7);
+}
+.bottom-item-right-title {
+  margin-bottom: 18px;
+}
+.bottom-item-right-description {
+  opacity: 0.75;
+  letter-spacing: -0.175px;
+}
