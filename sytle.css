@@ -26,6 +26,9 @@ ul,
 ol {
   text-decoration: none;
 }
+a {
+  text-decoration: none;
+}
 body {
   font-family: "Karla", sans-serif;
   font-size: 14px;
@@ -98,6 +101,7 @@ body {
   font-weight: 700;
   letter-spacing: -0.2px;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 0, 0.1);
+  color: #fff;
 }
 .bottom-item-right {
   padding: 40px;
@@ -111,4 +115,24 @@ body {
 .bottom-item-right-description {
   opacity: 0.75;
   letter-spacing: -0.175px;
+}
+
+@media (max-width: 311px) {
+  .container {
+    flex-direction: column;
+    width: 311px;
+    height: 100%;
+  }
+  .bottom-wrapper {
+    flex-direction: column;
+  }
+  .bottom-item-left {
+    width: 311px;
+  }
+  .bottom-item-right {
+    width: 311px;
+  }
+  .bottom-item-left-price-number {
+    margin-bottom: 6px;
+  }
 }
